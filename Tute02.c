@@ -30,18 +30,18 @@ int main() {
   //if condition
   if(distance < 0)
   {
-  		printf("There is an error");
+  	printf("There is an error");
   }
   else if(distance <= 30)
-	{
-  		amount = distance * 50.00; //calculation the amount to be paid
-  		printf("The amount to be paid is : %.2f",amount); //output
-	}
+  {
+  	amount = distance * 50.00; //calculation the amount to be paid
+  	printf("The amount to be paid is : %.2f",amount); //output
+  }
  else if(distance > 30)
-	{
-  		amount = (30 * 50) + ((distance - 30) * 40);
-  		printf("The amount to be paid is : %.2f",amount); //output
-	}
+  {
+  	amount = (30 * 50) + ((distance - 30) * 40);
+  	printf("The amount to be paid is : %.2f",amount); //output
+  }
   
   return 0;
 }
